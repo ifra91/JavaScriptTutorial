@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mullish", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height:100vh;
+    background-color:#f8e7af;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.counter-container{
+    
+    background-color: #F08080;
+    padding: 80px;
+    margin: 5px;
+    
+}
+
+#tempCalc.label{
+    font-size: 30px; 
+}
+
+div.counter{
+  font-size: xxx-large;
+}
+
+#temp {
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#temp-diff {
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    vertical-align:top;
+}
